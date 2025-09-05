@@ -16,3 +16,12 @@
   color: blue;
   text-decoration: underline;
 }
+@media (max-width: 786px) {
+  .navbarsection {
+    width: 60%;
+}
+  .navbar {
+    margin-top: 30px;
+    
+  }
+}
