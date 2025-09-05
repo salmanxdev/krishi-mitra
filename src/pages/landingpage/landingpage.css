@@ -67,3 +67,12 @@
 .herosection a:hover {
   text-decoration: underline;
 }
+@media(max-width: 786px){
+  
+  .herosection a{
+    top:90%;
+  }
+  .logo {
+    font-size: 3rem;
+  }
+}
