@@ -49,11 +49,68 @@ return(
             </div>
           </div>
         </div>
+        <section className="footer-section">
+        <div className="footer">
+          <div className="footermain">
+            <div className="krishi-mitra">
+             <div className="logo2">KRISHI-MITRA</div>
+            <h4>Your Companion  in Farming</h4>
+              <div className="icons">
+              <a href="#instagram">
+  <img src="/assets/logo.png" alt="logo"/>
+</a>
+              <a href="https://instagram.com">
+  <img src="/assets/logo.png" alt="logo" />
+</a>
+              <a href="https://instagram.com">
+  <img src="/assets/logo.png" alt="logo" />
+</a>
+              <a href="https://instagram.com">
+  <img src="/assets/logo.png" alt="logo" />
+</a>
+              </div>
+            </div>
+            <div className="quicklinks">
+              <h>Quick Links</h>
+              <a href="#home" className="quicklinks">Home</a>
+              <a href="#feature" className="quicklinks">Feature</a>
+              <a href="#howitworks" className="quicklinks">How it Works</a>
+              <a href="#pricing" className="quicklinks">Pricing</a>
+              <a href="#faq" className="quicklinks">FAQ</a>
+              <a href="#contact" className="quicklinks">Contact</a>
+            </div>
+            <div className="resources">
+              <h>Resources</h>
+              <a href="#AI-Assistance" className="resources">AI-Assistance</a>
+              <a href="#Multilingual" className="resources">Multilingual</a>
+              <a href="#community" className="resources">Community</a>
+              <a href="#e-market" className="resources">e-market</a>
+            </div>
+            <div className="legal">
+              <h>Legal</h>
+              <a href="#privacypolicy" className="legal">Privacy Policy</a>
+              <a href="#termsofservice" className="legal">Terms of Services</a>
+            </div>
+          </div>
+        <div className="footermid">
+          <h3>"Krishi-Mitra is a smart farming app designed to support farmers with the power of AI and digital technology. From accurate weather forecasts and AI-based plant disease detection to local-language chatbots and easy video workshops, Krishi-Mitra makes modern farming simple, accessible, and effective. Whether you are looking to protect your crops, learn new methods, or stay updated with the latest agricultural insights, Krishi-Mitra is your trusted companion in the field."</h3>
+        </div>
+        <div className="footerbottom">
+          <h>© 2025 KRISHI-MITRA. All rights reserved</h>
+        </div>
+      </div>
+    </section>
+    <div>Work In Progress:</div>
+    <h1>LAUNCHING SOON....</h1>
+
+    
+  
         
       
       
     
   </section>
+  
   );
 }
 export default LandingPage;
