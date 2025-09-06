@@ -76,3 +76,30 @@
     font-size: 3rem;
   }
 }
+.section2 {
+  border: 3px solid black;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+}
+.card h3 {
+  font-size: .6rem;
+  text-align: left;
+  font-weight: 200;
+}
+.card p {
+  font-size: 0.4rem;
+  text-align: left;
+  color: #b3b3b3;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.card {
+  border: 2px solid #d9d9d9;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 6px 6px 10px rgba(0 , 0, 0, 0.15);
+  }
