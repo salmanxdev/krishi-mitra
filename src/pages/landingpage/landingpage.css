@@ -103,3 +103,12 @@
   border-radius: 10px;
   box-shadow: 6px 6px 10px rgba(0 , 0, 0, 0.15);
   }
+  
+@media(max-width: 786px){
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .section2 { 
+    padding: 5px;
+  }
+}
