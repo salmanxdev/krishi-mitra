@@ -46,6 +46,14 @@
   font-weight: 600;
   white-space: nowrap;
 }
+@media(max-width: 786px) {
+  .logo {
+    top: 30%;
+    font-size: 1rem;
+    left: 42%;
+    
+  }
+}
 .herosection p {
   position: absolute;
   top: 55%;
@@ -68,6 +76,13 @@
   color: white;
   text-decoration: none;
   }
+@media(max-width: 786px){
+  .herosection a {
+    left: 23%;
+    padding: 7px 40px;
+    
+  }
+}
 .herosection a:hover {
   text-decoration: underline;
 }
@@ -131,6 +146,13 @@
   justify-content: space-between;
   color: #6B6B6B;
 }
+@media(max-width: 786px){
+  .footermain {
+    display: flex;
+    flex-direction: column;
+    
+  }
+}
 .icons {
   display: flex;
   flex-direction: row;
@@ -149,6 +171,7 @@
   text-align: left;
   color: #6B6B6B;
   text-decoration: none;
+  
 }
 .resources {
   display: flex;
